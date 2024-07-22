@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="createaccount.css">
+      <link rel="shortcut icon" href="./photos/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+		<div class="signin-form">
+      <div class="logo">
+			<img src="../photos/logo.png" alt="Company Logo" class="logo-image">
+          <h1>BLUESTOCK</h1>     
+			</div>
+            <div>
+            <center class="account" style="padding-bottom:50px;"><h2>Create an account</h2></center> 
+            </div>
+      <form  class="form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Saisha Wagh" required>
+				<label for="email">Email Address</label>
+				<input type="email" id="email" name="email" placeholder="hello@bluestock.in" required>
+        <div id="password">
+				<label for="password">Password</label>
+        </div>
+				<input type="password" id="password" name="password" placeholder="........." required>
+				<div class="recaptcha">
+					<input type="checkbox" id="recaptcha" name="recaptcha" required>
+					<label for="recaptcha">I'm not a robot</label>
+          <div class="recaptcha-image">
+          <img src="../photos/recaptcha.png"/>
+          </div>
+				</div>
+				<div>
+                    <p style="color:#9da3ab">By continuing, you agree to our <a href="#">terms of service</a></p>
+                </div>
+				<button type="submit">Sign up</button>
+
+       <center class="para">or sign up with</center>
+				<div class="or-signin-with">
+					<a href="#" class="google-btn" style="color:#717b89"><img style="height: 20px;width: 20px;padding-right: 20px;" src="../photos/google.png"/>Continue with Google</a>
+				</div>
+       <p style="color:#9da3ab;text-align: center;">Already have an account? <a href="">Sign in here</a></p>
+    	</form>
+		</div>
+	</div>
+</body>
+</html>

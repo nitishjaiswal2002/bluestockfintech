@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #fff;
+  max-height: 80vh; /* set the max height to the viewport height */
+}
+
+.signin-form {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+justify-content: center;
+}
+
+.logo-image{
+  width: 40px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: px;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#password{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+#password ,a{
+  text-decoration: none;
+}
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+
+.recaptcha {
+  display: flex;
+  width: 350px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  height: 45px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.recaptcha-image{
+  display: flex;
+  height: 30px;
+  width: 40px;
+  padding-left: 180px;
+}
+
+.keep-signed-in {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color:rgb(104,92,255);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color:#5651ff;
+}
+
+.para{
+  height: 30px;
+  width: 150px;
+  margin-top:10px;
+  margin-left: 120px;
+  padding-top: 10px;
+  color:#b5b8bd;
+  border: 1px solid #ffffff;
+  background-color: #f4f5f7;
+  outline: none;
+}
+
+.or-sign-with{
+  display: flex;
+  align-items: center;
+}
+.google-btn {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ height: 40px;
+ width: 400px;
+ background-color: #e4e7eb;
+ justify-content: center;
+ color:#aab1b9;
+}
+
+.google-btn:hover {
+  background-color: #f0f0f0;
+}
+
+#account, a{
+  color:#5651ff;
+text-align: center;
+margin-top: 20px;
+}
+.keep-signed-in input[type="checkbox"] {
+  accent-color:#5d12d2; /* change the accent color to purple */
+}
+
+.recaptcha input[type="checkbox"] {
+  accent-color: green; /* change the accent color to green */
+}
