@@ -72,7 +72,7 @@ h3{
   
   .recaptcha {
     display: flex;
-    width: 350px;
+    width: 100%; /* make the recaptcha full width */
     padding-left: 10px;
     margin-bottom: 20px;
     height: 45px;
@@ -85,7 +85,8 @@ h3{
     display: flex;
     height: 30px;
     width: 40px;
-    padding-left: 180px;
+    margin-left: auto; /* use margin-left: auto to push the image to the right */
+    margin-right: 10px; /* add some margin to the right */
   }
   
   .keep-signed-in {
@@ -108,19 +109,19 @@ h3{
     background-color:#5D12D2;
   }
   
-  .para{
+  .para {
     height: 30px;
     width: 150px;
-    margin-top:10px;
-    margin-left: 120px;
+    margin: 10px auto; /* use margin: 10px auto to center the element horizontally */
     padding-top: 10px;
     color: #c6c9cd;
     border: 1px solid #ffffff;
     background-color: #f4f5f7;
     outline: none;
+    text-align: center; /* add text-align: center to center the text horizontally */
   }
   
-  .or-sign-with{
+  .or-signin-with{
     display: flex;
     align-items: center;
   }
